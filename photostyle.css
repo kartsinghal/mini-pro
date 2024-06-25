@@ -136,7 +136,7 @@ a {
   padding: 8px;
   margin: 10px;
   /* background-color:grey; */
-  box-shadow: 0 0 7px rgba(255, 255, 255, 0.7);
+  box-shadow: 0 0 7px rgba(47, 45, 45, 0.7);
 }
 
 img{
@@ -164,6 +164,6 @@ img{
 }
 
 .card:hover{
-  box-shadow: 0 0 9px rgba(1, 1, 1, 2);
+  box-shadow: 0 0 15px rgba(1, 1, 1, 2);
 transition: 1s;
 }
