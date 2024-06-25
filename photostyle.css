@@ -4,8 +4,7 @@
   font-family: "Josefin Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
-  font-style: normal;
-
+  font-style: normal
 }
 
 .main_box {
@@ -47,10 +46,14 @@
 .sidebar_menu .logo a {
   position: absolute;
   left: 50px;
-  color: wheat;
   text-decoration: none;
+  font-size: 25px;
+  font-weight: 700;
+  color:bisque;
+
   
 }
+
 
 .sidebar_menu .btn_two i {
   color: grey;
@@ -72,6 +75,7 @@
 .sidebar_menu .menu li {
   margin-top: 8px;
   padding: 15px 10px;
+
 }
 
 .sidebar_menu .menu i,
@@ -140,7 +144,7 @@ a {
 }
 
 img{
-  
+  height: 250px;
   width:100%;
   border-radius: 10px;
 
