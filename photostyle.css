@@ -10,7 +10,7 @@
 .main_box {
   background: url(blur1.jpg);
   /* height: 100vh; */
-  background-size:cover;
+  background-size: cover;
   background-attachment: fixed;
 }
 
@@ -25,7 +25,7 @@
   margin-right: 10px;
 }
 
-nav{
+nav {
   height: 50px;
   width: 100%;
   /* display: grid;
@@ -34,27 +34,30 @@ nav{
   background-color:black;
   color: white; */
   display: flex;
-  justify-content:center;
+  justify-content: center;
   align-items: center;
-  background-color:black;
+  background-color: black;
   color: white;
   list-style-type: none;
 
 }
-nav>div{
+
+nav>div {
   display: flex;
   position: absolute;
-  left:90% ;
+  left: 90%;
 }
-div>a{
+
+div>a {
   font-size: 16px;
 }
 
-#login,#signup{
+#login,
+#signup {
   margin-right: 10px;
 }
 
-#pic{
+#pic {
   margin-left: 10px;
 }
 
@@ -82,9 +85,9 @@ div>a{
   text-decoration: none;
   font-size: 25px;
   font-weight: 700;
-  color:bisque;
+  color: bisque;
 
-  
+
 }
 
 
@@ -143,50 +146,51 @@ a {
   box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
   background-color: rgb(69, 65, 65);
   color: black;
-  
+
 }
 
 /* .btn_one i:hover{
   font-size:40px ;
 } */
 
-.btn_two i:hover{
+.btn_two i:hover {
   font-size: 30px;
 }
 
-.social_media i:hover{
+.social_media i:hover {
   opacity: 2;
   transform: scale(1.1);
 }
 
-#check:checked ~.sidebar_menu{
+#check:checked~.sidebar_menu {
   left: 0px;
 }
-#check:checked ~ .btn_one i{
+
+#check:checked~.btn_one i {
   opacity: 0;
 }
 
-#studio:hover{
+#studio:hover {
   font-size: 18px;
   transition: all 0.3s linear;
 }
 
-#login:hover{
+#login:hover {
   color: burlywood;
   box-shadow: 3px 3px 3px rgba(218, 219, 221, 0.2);
 }
 
-#signup:hover{
+#signup:hover {
   color: burlywood;
   box-shadow: 3px 3px 3px rgba(221, 218, 218, 0.2);
 }
 
-#pic:hover{
+#pic:hover {
   color: burlywood;
   box-shadow: 3px 3px 3px rgba(221, 218, 218, 0.3);
 }
 
-.card{
+.card {
   width: 390px;
   /* border: 2px solid black; */
   border-radius: 10px;
@@ -196,45 +200,92 @@ a {
   box-shadow: 0 0 7px rgba(47, 45, 45, 0.7);
 }
 
-img{
+img {
   height: 250px;
-  width:100%;
+  width: 100%;
   border-radius: 10px;
 
 }
 
-.card_container{
+.card_container {
   display: grid;
-  grid-template-columns:repeat(3,1fr);
-  grid-template-rows: repeat(2,1fr);
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
   justify-items: center;
   margin-left: 10px;
 }
 
-.card_container a{
+.card_container a {
   text-decoration: none;
   color: white;
 }
 
-.card_container h2{
-  color:white;
+.card_container h2 {
+  color: white;
 }
 
-.card:hover{
+.card:hover {
   box-shadow: 0 0 15px rgba(1, 1, 1, 2);
-transition: 1s;
+  transition: 1s;
 }
 
-#down{
+#down {
   position: relative;
   left: 70%;
   font-size: 18px;
 }
 
-footer{
-  background-color: black;
+#down:hover {
+  font-size: 20px;
+  transition: all 0.5 linear;
+}
+
+Footer {
+  background-color: #234956;
   color: white;
-  /* text-align: center; */
-  /* align-self: center; */
-  /* height: 30px; */
+  font-weight: 500;
+}
+
+.Footer_container {
+  font-weight: 800;
+  font-size: 17px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+.back {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-size: 17px;
+}
+
+#backToTop {
+  background-color: #234956;
+  border: 0;
+  position: relative;
+  left: 37%;
+  ;
+  cursor: pointer;
+}
+
+#email {
+  background-color: #234956;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 3px;
+  text-align: center;
+
+}
+
+#btn1 {
+  background-color: #234956;
+  color: white;
+  cursor: pointer;
+}
+
+#btn1:hover {
+  box-shadow: 0 0 3px rgba(218, 219, 221, 0.2);
 }
